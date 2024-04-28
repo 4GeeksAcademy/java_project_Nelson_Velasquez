@@ -1,1 +1,30 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  padding: 0;
+  margin: 0;
+  background-color: whitesmoke;
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 100px auto 0 auto; /* Margen superior de 100px, centrado horizontalmente */
+  padding: 20px; /* Agrega espacio interno al contenedor */
+  border: 2px solid #ccc; /* Borde */
+  border-radius: 10px; /* Borde redondeado */
+  background-color: black; /* Color de fondo */
+}
+
+p,
+h1 {
+  color: aqua;
+  font-weight: bold;
+  width: 100%;
+}
+
+#excuse {
+  border-radius: 10px;
+  margin: 100px auto 0 auto;
+  border-color: solid aqua;
+}
